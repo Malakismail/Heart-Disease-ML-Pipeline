@@ -12,4 +12,37 @@ It contains patient medical records and diagnostic results to determine the pres
 - **Target:** Presence (1) or absence (0) of heart disease.
 
 ## 🧪 Project Structure
+data/
+│ ├── heart_disease.csv
+│── notebooks/
+│ ├── 01_data_preprocessing.ipynb
+│ ├── 02_pca_analysis.ipynb
+│ ├── 03_feature_selection.ipynb
+│ ├── 04_supervised_learning.ipynb
+│ ├── 05_unsupervised_learning.ipynb
+│ ├── 06_hyperparameter_tuning.ipynb
+│── models/
+│ ├── final_model.pkl
+│── ui/
+│ ├── app.py (Streamlit UI)
+│── deployment/
+│ ├── ngrok_setup.txt
+│── results/
+│ ├── evaluation_metrics.txt
 
+
+## 🔧 Tools & Technologies
+
+- **Python**
+- **Pandas, NumPy** – Data manipulation
+- **Scikit-learn** – ML models, preprocessing, and metrics
+- **Matplotlib, Seaborn** – Data visualization
+- **Jupyter Notebook** – Interactive development
+
+## 🧠 Models Used
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors
+- Support Vector Machine
