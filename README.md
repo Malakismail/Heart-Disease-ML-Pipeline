@@ -1,4 +1,3 @@
-# Heart-Disease-ML-Pipeline
 # 🫀 Heart Disease Prediction using Machine Learning
 
 This project builds a machine learning pipeline to predict the presence of heart disease using the UCI Heart Disease dataset. It covers data preprocessing, model training, evaluation, and performance comparison across multiple algorithms.
@@ -14,20 +13,35 @@ It contains patient medical records and diagnostic results to determine the pres
 ## 🧪 Project Structure
 data/
 │ ├── heart_disease.csv
+
 │── notebooks/
+
 │ ├── 01_data_preprocessing.ipynb
+
 │ ├── 02_pca_analysis.ipynb
+
 │ ├── 03_feature_selection.ipynb
+
 │ ├── 04_supervised_learning.ipynb
+
 │ ├── 05_unsupervised_learning.ipynb
+
 │ ├── 06_hyperparameter_tuning.ipynb
+
 │── models/
+
 │ ├── final_model.pkl
+
 │── ui/
+
 │ ├── app.py (Streamlit UI)
+
 │── deployment/
+
 │ ├── ngrok_setup.txt
+
 │── results/
+
 │ ├── evaluation_metrics.txt
 
 
@@ -46,3 +60,13 @@ data/
 - Random Forest
 - K-Nearest Neighbors
 - Support Vector Machine
+
+## Contributing
+Contributions are welcome! Fork the repository, create a branch for your feature or bug fix, and submit a pull request.
+
+## Contact
+For inquiries or collaboration opportunities, please reach out to me:
+
+**Name**: Malak Ismail  
+**Email**: malakismail706@gmail.com 
+**LinkedIn**: www.linkedin.com/in/malak-ismail-393148251
